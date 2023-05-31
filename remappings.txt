@@ -1,6 +1,6 @@
 @manifoldxyz/=lib/
 @openzeppelin/=lib/
-creator-core-extensions-solidity/=lib/creator-core-extensions-solidity/contracts/
+manifoldxyz/=lib/creator-core-extensions-solidity/packages/manifold/contracts/
 ds-test/=lib/forge-std/lib/ds-test/src/
 erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/
 forge-std/=lib/forge-std/src/

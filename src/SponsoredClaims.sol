@@ -6,9 +6,8 @@ import {ERC721Creator} from "./creator/ERC721Creator.sol";
 import {Create2} from "openzeppelin/utils/Create2.sol";
 import {Ownable} from "openzeppelin/access/Ownable.sol";
 import {Address} from "openzeppelin/utils/Address.sol";
-import {IERC1155LazyPayableClaim} from
-    "creator-core-extensions-solidity/manifold/lazyclaim/IERC1155LazyPayableClaim.sol";
-import {IERC721LazyPayableClaim} from "creator-core-extensions-solidity/manifold/lazyclaim/IERC721LazyPayableClaim.sol";
+import {IERC1155LazyPayableClaim} from "manifoldxyz/lazyclaim/IERC1155LazyPayableClaim.sol";
+import {IERC721LazyPayableClaim} from "manifoldxyz/lazyclaim/IERC721LazyPayableClaim.sol";
 import {Recipient, RoyaltySplitter} from "./splitter/RoyaltySplitter.sol";
 import {ISponsoredClaims} from "./ISponsoredClaims.sol";
 import {SignatureChecker} from "openzeppelin/utils/cryptography/SignatureChecker.sol";

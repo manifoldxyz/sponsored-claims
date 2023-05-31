@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import {IERC1155LazyPayableClaim} from
-    "creator-core-extensions-solidity/manifold/lazyclaim/IERC1155LazyPayableClaim.sol";
-import {IERC721LazyPayableClaim} from "creator-core-extensions-solidity/manifold/lazyclaim/IERC721LazyPayableClaim.sol";
+import {IERC1155LazyPayableClaim} from "manifoldxyz/lazyclaim/IERC1155LazyPayableClaim.sol";
+import {IERC721LazyPayableClaim} from "manifoldxyz/lazyclaim/IERC721LazyPayableClaim.sol";
 
 interface ISponsoredClaims {
     error OwnerCannotSponsor();

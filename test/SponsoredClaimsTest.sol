@@ -4,10 +4,9 @@ pragma solidity ^0.8.13;
 import {Test} from "forge-std/Test.sol";
 import {SponsoredClaims} from "../src/SponsoredClaims.sol";
 import {ISponsoredClaims} from "../src/ISponsoredClaims.sol";
-import {IERC721LazyPayableClaim} from "creator-core-extensions-solidity/manifold/lazyclaim/IERC721LazyPayableClaim.sol";
-import {IERC1155LazyPayableClaim} from
-    "creator-core-extensions-solidity/manifold/lazyclaim/IERC1155LazyPayableClaim.sol";
-import {ILazyPayableClaim} from "creator-core-extensions-solidity/manifold/lazyclaim/ILazyPayableClaim.sol";
+import {IERC721LazyPayableClaim} from "manifoldxyz/lazyclaim/IERC721LazyPayableClaim.sol";
+import {IERC1155LazyPayableClaim} from "manifoldxyz/lazyclaim/IERC1155LazyPayableClaim.sol";
+import {ILazyPayableClaim} from "manifoldxyz/lazyclaim/ILazyPayableClaim.sol";
 import {Recipient, RoyaltySplitter} from "../src/splitter/RoyaltySplitter.sol";
 
 interface IOwnable {
