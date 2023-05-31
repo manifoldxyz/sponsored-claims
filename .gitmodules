@@ -4,3 +4,6 @@
 [submodule "lib/creator-core-extensions-solidity"]
 	path = lib/creator-core-extensions-solidity
 	url = https://github.com/manifoldxyz/creator-core-extensions-solidity
+[submodule "lib/openzeppelin-contracts"]
+	path = lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
